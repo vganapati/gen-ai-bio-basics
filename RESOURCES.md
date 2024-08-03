@@ -1,0 +1,1 @@
+- [The Autodiff Cookbook (JAX)](https://jax.readthedocs.io/en/latest/notebooks/autodiff_cookbook.html)

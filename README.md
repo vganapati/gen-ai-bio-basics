@@ -2,15 +2,22 @@
 
 A guide to ramping up for projects at the intersection of generative AI and biology.
 
-## Optimization/Deep Learning Basics
-
-Solutions in JAX and PyTorch
+## Optimization/Deep Learning
 
 <details>
-<summary>Optimization Algorithms, SGD, Adam</summary>
+<summary>What is the difference between stochastic gradient descent and Adam?</summary>
 <br>
-Code example link
+Optimization Algorithms, SGD, Adam
+Memory and performance
+Code example link in JAX/PyTorch
 </details>
+
+- Train/validation/test splits and cross-validation
+- Overhead for multi-GPU training (analyze with NVIDIA nsight)
+- Implement a diffusion model
+- Implement a normalizing flow
+- How do you train a normalizing flow?
+- Implement flow matching
 
 <details>
 <summary>VJP</summary>
@@ -24,17 +31,56 @@ XXX
 XXX
 </details>
 
-## Coding Basics
+## Coding
 
+- counters
+- abstract classes
+- version control
+- Big O analysis for performance/memory
+- () matching leetcode easy problem
+- Kabsch algorithm
+- pandas and SQL
 
+## Math/Numerical Methods
 
-## Math Basics
-
--log normal distribution
-
+- log normal distribution
+- What is a random variable? 
+- How do you sample a PDF/posterior distribution? (https://twiecki.io/blog/2015/11/10/mcmc-sampling/)
+(https://pj.freefaculty.org/guides/stat/Distributions/DrawingRandomSamples/DrawingSamples.pdf)
 
 ## Large Language Models
 
-## Structural Biology
+- ELMO
+- BERT
+- GPT
+- Transformer
+- How to process really long sequences with attention layer
+- Code an attention layer
 
-## LLMs + Structural Biology
+## Structural Biology/Drug Design
+
+- DiffDock (great at pocket identification, weakness is the pose in the pocket)
+- EquiDock
+- AlphaFold
+- How does AlphaFold-multimer differ from AlphaFold-monomer?
+- Force fields/molecular dynamics
+- RNA structure
+- Designing proteins
+- When to use equivariance
+- Why is there no equivariance in AlphaFold 3? Effectively data augmentation is used
+- FAPE loss
+- Kabsch vs FAPE, pros/cons
+- RFDiffusion
+- Explain RosettaFold and difference to AlphaFold: geometric operations, 1D, 2D, 3D tracks/templates, SE(3) equivariant transformer
+- Protein MPNN to generate a sequence from a protein
+
+<details>
+<summary>Someone comes to you with a model that works well for binding affinities of small molecules to a given protein. What checks do you run before running experiments to see how the model generalizes?</summary>
+<br>
+XXX
+</details>
+
+## LLMs + Biology
+
+- ESMFold
+- Soloseq
