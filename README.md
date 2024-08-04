@@ -18,6 +18,8 @@ Code example link in JAX/PyTorch
 - Implement a normalizing flow
 - How do you train a normalizing flow?
 - Implement flow matching
+- Distillation, cross-distillation
+- Fully sharded data parallelism
 
 <details>
 <summary>VJP</summary>
@@ -53,6 +55,7 @@ XXX
 - ELMO
 - BERT
 - GPT
+- T5
 - Transformer
 - How to process really long sequences with attention layer
 - Code an attention layer
@@ -73,6 +76,15 @@ XXX
 - RFDiffusion
 - Explain RosettaFold and difference to AlphaFold: geometric operations, 1D, 2D, 3D tracks/templates, SE(3) equivariant transformer
 - Protein MPNN to generate a sequence from a protein
+- RoseTTAfold all atom
+- PoseBusters
+- PDBBind
+- Autodock Vina
+- DockGen
+- cryoDRGN
+- Recursion’s Phenom-Beta
+- LDDT
+- DockQ
 
 <details>
 <summary>Someone comes to you with a model that works well for binding affinities of small molecules to a given protein. What checks do you run before running experiments to see how the model generalizes?</summary>
@@ -84,3 +96,4 @@ XXX
 
 - ESMFold
 - Soloseq
+- CodonBERT: Large Language Models for mRNA design and optimization
