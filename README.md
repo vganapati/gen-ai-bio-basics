@@ -20,6 +20,7 @@ Code example link in JAX/PyTorch
 - Implement flow matching
 - Distillation, cross-distillation
 - Fully sharded data parallelism
+- torch.einsum
 
 <details>
 <summary>VJP</summary>
