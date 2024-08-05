@@ -2,3 +2,6 @@
 - https://github.com/baker-laboratory/RoseTTAFold-All-Atom
 - Elements of Programming Interviews in Python
 - Stanford courses: CS231n, CS224n, CS230
+- https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/
+- https://jalammar.github.io/
+- https://github.com/seyonechithrananda/bert-loves-chemistry
