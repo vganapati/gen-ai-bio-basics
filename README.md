@@ -86,6 +86,7 @@ XXX
 - Recursion’s Phenom-Beta
 - LDDT
 - DockQ
+- Geneformer
 
 <details>
 <summary>Someone comes to you with a model that works well for binding affinities of small molecules to a given protein. What checks do you run before running experiments to see how the model generalizes?</summary>
