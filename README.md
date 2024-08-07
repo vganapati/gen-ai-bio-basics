@@ -43,6 +43,7 @@ XXX
 - () matching leetcode easy problem
 - Kabsch algorithm
 - pandas and SQL
+- Dijkstra's algorithm
 
 ## Math/Numerical Methods
 
